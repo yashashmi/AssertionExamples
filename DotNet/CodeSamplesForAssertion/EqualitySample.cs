@@ -24,11 +24,11 @@ namespace CodeSamplesForAssertion
             return num1 + num2;
         }
 
-        //Double equality. Assert.AreEqual()
+        //Double/Float equality. Assert.AreEqual(). Figure out how to add tolerance/delta in assertions
         public double GetMaturityAmout(double principal, double interest)
         {
             var amount = principal + (principal * interest / 100);
-            return Math.Round(amount,2,MidpointRounding.AwayFromZero);
+            return Math.Round(amount, 2, MidpointRounding.AwayFromZero);
         }
 
     }
