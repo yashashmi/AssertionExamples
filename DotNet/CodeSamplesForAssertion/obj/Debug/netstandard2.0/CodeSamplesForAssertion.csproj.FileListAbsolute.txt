@@ -1,0 +1,8 @@
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\bin\Debug\netstandard2.0\CodeSamplesForAssertion.deps.json
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\bin\Debug\netstandard2.0\CodeSamplesForAssertion.dll
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\bin\Debug\netstandard2.0\CodeSamplesForAssertion.pdb
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\obj\Debug\netstandard2.0\CodeSamplesForAssertion.csprojAssemblyReference.cache
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\obj\Debug\netstandard2.0\CodeSamplesForAssertion.AssemblyInfoInputs.cache
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\obj\Debug\netstandard2.0\CodeSamplesForAssertion.AssemblyInfo.cs
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\obj\Debug\netstandard2.0\CodeSamplesForAssertion.dll
+C:\Users\yasub.hashmi\source\repos\AssertionExamples\DotNet\CodeSamplesForAssertion\obj\Debug\netstandard2.0\CodeSamplesForAssertion.pdb
