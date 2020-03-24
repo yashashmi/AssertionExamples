@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace CodeSamplesForAssertion
 {
@@ -29,6 +30,15 @@ namespace CodeSamplesForAssertion
         {
             var amount = principal + (principal * interest / 100);
             return Math.Round(amount, 2, MidpointRounding.AwayFromZero);
+        }
+
+        //This could qualify for two tests. 1. Not Empty test and 2. List equality
+        public IList<string> WeekendDays()
+        {
+            var list = new List<string>();
+            list.Add("Saturday");
+            list.Add("Sunday");
+            return list;
         }
 
     }
