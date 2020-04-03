@@ -1,13 +1,11 @@
 package com.agile.CodeSamplesForAssertion;
 
 import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class EqualitySample {
-
-	public String getWelcomeMessage() {
-		return null;
-	}
 
 	public String getWelcomeMessage(String yourName) {
 		return "Welcome " + yourName;
@@ -33,4 +31,14 @@ public class EqualitySample {
         return Double.parseDouble(decimalFormat.format(amount));
 	}
 
+	public List<String> weekendDays() {
+
+        List<String> weekendDaysList = new ArrayList<String>();
+
+        weekendDaysList.add("Saturday");
+        weekendDaysList.add("Sunday");
+
+		return weekendDaysList;
+	}
+	
 }
