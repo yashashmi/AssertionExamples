@@ -1,5 +1,6 @@
 package com.agile.CodeSamplesForAssertion;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNotSame;
@@ -125,5 +126,23 @@ public class EqualitySampleTest {
         assertThat(weekendDaysList, containsInAnyOrder("Saturday", "Sunday"));
         
     }
+
+    @Test
+    public void shouldReturnNotSameWhenValuesHaveDifferentColors(){
+         
+        EqualitySample equalitySample = new EqualitySample();
+        assertNotSame(equalitySample.getColorValue("key1"), equalitySample.getColorValue("key2"));
+    }
+
+    @Test
+    public void testArrayEquals(){
+
+        EqualitySample equalitySample = new EqualitySample();
+        String[] result =  equalitySample.getFruitArray();
+		String[] expectedFruitsArray = {"apple", "mango", "grape"};
+        assertArrayEquals(expectedFruitsArray, result);
+    
+    }
+    
 
 }
