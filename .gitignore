@@ -353,6 +353,8 @@ MigrationBackup/
 
 ####################Java Specific - Begins#############################
 
+target/
+
 # Compiled class file
 *.class
 

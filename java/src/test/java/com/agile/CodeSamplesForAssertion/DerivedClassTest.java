@@ -1,10 +1,6 @@
 package com.agile.CodeSamplesForAssertion;
 
-import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotSame;
-import static org.junit.Assert.assertSame;
-
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
