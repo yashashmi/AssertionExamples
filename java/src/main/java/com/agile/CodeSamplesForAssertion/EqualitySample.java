@@ -48,14 +48,7 @@ public class EqualitySample {
 		return weekendDaysList;
 	}
 
-	public String getColorValue(final String key){
-        Map<String, String> colorsMap = new HashMap<String, String>();
-        colorsMap.put("key1", "White");
-        colorsMap.put("key2", "Red");
-        colorsMap.put("key3", "Green");
-        return colorsMap.get(key);
-	}
-	
+		
 	public String[] getFruitArray(){
 		String[] fruitsArray = {"apple", "mango", "grape"};
 		return fruitsArray;

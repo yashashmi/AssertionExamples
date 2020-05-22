@@ -127,13 +127,7 @@ public class EqualitySampleTest {
         
     }
 
-    @Test
-    public void shouldReturnNotSameWhenValuesHaveDifferentColors(){
-         
-        EqualitySample equalitySample = new EqualitySample();
-        assertNotSame(equalitySample.getColorValue("key1"), equalitySample.getColorValue("key2"));
-    }
-
+   
     @Test
     public void testArrayEquals(){
 
